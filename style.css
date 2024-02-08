@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #4CAF50; /* Dark green background */
   }
   
   #container {
@@ -17,12 +17,12 @@ body {
   }
   
   h1 {
-    color: #333;
+    color: #FFD700; /* Gold text color */
   }
   
   h2 {
     margin-bottom: 10px;
-    color: #666;
+    color: #FFD700; /* Gold text color */
   }
   
   #player-hand, #dealer-hand {
@@ -37,8 +37,8 @@ body {
   }
   
   .card {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #FFFFFF; /* White card background */
+    border: 1px solid #000000; /* Black border */
     border-radius: 5px;
     padding: 5px 10px;
     margin: 5px;
@@ -48,6 +48,7 @@ body {
   #result {
     font-size: 24px;
     margin-top: 20px;
+    color: #FFD700; /* Gold text color */
   }
   
   button {
@@ -55,19 +56,18 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #FFD700; /* Gold button background */
+    color: #000000; /* Black button text color */
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #FFA500; /* Orange hover color */
   }
   
   #start-button {
     display: none;
   }
-  
   
