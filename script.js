@@ -4,7 +4,7 @@ $(document).ready(function() {
     let dealerHand = [];
     let playerScore = 0;
     let dealerScore = 0;
-    let gameOver = false;
+    let gameOver = false; 
   
     function createDeck() {
       let suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades'];
